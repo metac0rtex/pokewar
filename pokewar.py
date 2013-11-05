@@ -42,7 +42,7 @@ def visitvic(driver):
 
 
 banner()
-print "[+] Setting Web Driver to " + browser
+print "[+] Setting Web Driver to Firefox" 
 driver = webdriver.Firefox()
 print "  [+] Success"
 login(driver, usr, pwd)
